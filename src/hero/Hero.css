@@ -1,0 +1,27 @@
+.counting {
+    display: flex;
+    list-style: none;
+ gap: 20px;
+ justify-content: center;
+
+}
+li{
+ cursor: [pointer];
+    border-radius: 50%;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+align-items: center;
+}
+.hero-dot.orange{
+    background-color: orange;
+}
+
+.hero-dot{
+    cursor: pointer;
+    transition: 0.3s;
+margin-top: 500px;
+}
+.hero-dot:hover{
+    background-color: orange;
+}
